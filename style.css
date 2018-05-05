@@ -1,0 +1,1307 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('fonts/League-Gothic/LeagueGothic-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/Open_Sans/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 2306px;
+}
+
+.header {
+    background: url(img/bg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 846px;
+}
+
+.page1 {
+    width: 960px;
+    margin: 0 auto;
+    height: 278px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    /*    background-color: #00ffff45;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    top: 60px;
+    width: 153px;
+    height: 55px;
+    background: url(img/logo.png);
+    background-size: 100% 100%;
+}
+
+
+/*
+
+menu block
+*/
+
+.menuFooter {
+    display: none;
+}
+
+.menu {
+    position: relative;
+    top: 76px;
+    width: 66%;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    display: none;
+}
+
+.textMenu a {
+    font-family: 'LeagueGothic';
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.textMenu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #edbfff;
+}
+
+
+/*end of menu block*/
+
+
+/* start of info block*/
+
+.info {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.infoText {
+    position: relative;
+    top: 83px;
+    width: 502px;
+    height: 231px;
+}
+
+.infoText p1 {
+    color: #fefefe;
+    font-family: 'LeagueGothic';
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.infoText p2 {
+    color: #edbfff;
+    font-family: 'LeagueGothic';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.infoText p3 {
+    color: #fefefe;
+    font-family: 'OpenSans';
+    font-weight: 200;
+    letter-spacing: -0.45px;
+    line-height: 24px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.infoImg {
+    position: relative;
+    top: -15px;
+    right: 68px;
+    width: 274px;
+    height: 434px;
+    background: url(img/phone.png);
+}
+
+
+/* end of info block*/
+
+
+/* start main block*/
+
+.main {
+    width: 100%;
+    height: 342px;
+    background: linear-gradient(to top, #322539 0%, #745083 100%);
+}
+
+.main .page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 276px;
+    height: 197px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.inBox {
+    width: 223px;
+    height: 165px;
+    overflow: hidden;
+}
+
+.inBox p1 {
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: 'LeagueGothic';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.inBox p2 {
+    margin-top: 2px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.icon1 {
+    width: 30px;
+    height: 32px;
+    background: url(img/icon1.png);
+}
+
+.icon2 {
+    width: 30px;
+    height: 32px;
+    background: url(img/icon2.png);
+}
+
+.icon3 {
+    width: 30px;
+    height: 32px;
+    background: url(img/icon3.png);
+}
+
+.box a {
+    position: relative;
+    left: 73%;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.box a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+
+/* end main block*/
+
+
+/*start moreInfo section*/
+
+.moreInfo {
+    height: 487px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.moreInfo .page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 {
+    width: 452px;
+    height: 294px;
+    background: url(img/imgFace.png);
+}
+
+.section1 .text {
+    position: relative;
+    top: 32px;
+    left: 65px;
+    width: 346px;
+    height: 202px;
+    overflow: hidden;
+}
+
+.moreInfo p1,
+.moreInfo p2 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.moreInfo p2 {
+    color: #edbfff;
+}
+
+.moreInfo p3 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.section2 {
+    width: 434px;
+    height: 220px;
+}
+
+.imgThree {
+    width: 49px;
+    height: 180px;
+    background: url(img/3img.png);
+}
+
+.describe {
+    width: 434px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 368px;
+    height: 179px;
+}
+
+.article p1,
+.article p2 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "OpenSans";
+    font-weight: bolder;
+}
+
+.article p2 {
+    font-family: "OpenSans";
+    font-weight: 300;
+}
+
+.section2 a {
+    position: relative;
+    top: 5px;
+    left: 310px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section2 a:hover {
+    font-size: 20px;
+}
+
+
+/*end moreInfo section*/
+
+
+/*start icons section*/
+
+.icons {
+    background-color: #fefefe;
+    width: 100%;
+    height: 118px;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCompany {
+    height: 65px;
+    width: 775px;
+    background: url(img/companys.png);
+}
+
+
+/*end icons section*/
+
+
+/*start beforeFooter section*/
+
+.beforeFooter {
+    height: 400px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.beforeFooter .page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1,
+.part2,
+.part3 {
+    width: 277px;
+    height: 205px;
+    overflow: hidden;
+}
+
+.part3 {
+    display: none;
+}
+
+.beforeFooter p1,
+.beforeFooter p2 {
+    position: relative;
+    top: 3px;
+    text-shadow: 0 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+}
+
+.beforeFooter p2 {
+    color: #b9b9b9;
+}
+
+.beforeFooter p3 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #c5c5c5;
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.beforeFooter p4 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.beforeFooter p5 {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+/*end beforeFooter section*/
+
+
+/*start footer section*/
+
+.footer {
+    height: 111px;
+    width: 100%;
+    background: url(img/bg-copy.png);
+}
+
+.footer .menu {
+    width: 55%;
+    position: relative;
+    top: 43px;
+}
+
+.footer .textMenu a {
+    font-size: 20px;
+}
+
+.footer .textMenu a:hover {
+    text-decoration: none;
+}
+
+.footer .copyright {
+    position: relative;
+    top: 35px;
+    width: 141px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copyright p,
+.footer .copyright p1 {
+    display: block;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 33.72px;
+}
+
+.footer .copyright p1 {
+    font-weight: bold;
+}
+
+
+/*end footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+    .page1 {
+        height: 244px;
+        width: 768px;
+    }
+    .page {
+        width: 768px;
+    }
+    span {
+        display: none;
+    }
+    .header {
+        height: 798px;
+    }
+    .logo {
+        position: relative;
+        top: 54px;
+    }
+    /*
+
+    menu block
+    */
+    .menu {
+        position: relative;
+        top: 140px;
+        right: 152px;
+        width: 80%;
+    }
+    /*end of menu block*/
+    /* start of info block*/
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .infoText {
+        position: relative;
+        left: 25px;
+        top: 98px;
+        width: 272px;
+        height: 180px;
+        overflow: hidden;
+    }
+    .infoText p1 {
+        font-size: 48px;
+    }
+    .infoText p2 {
+        font-size: 24px;
+    }
+    .infoText p3 {
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .infoImg {
+        position: relative;
+        top: -25px;
+        right: 65px;
+    }
+    /* end of info block*/
+    /* start main block*/
+    .box {
+        width: 205px;
+        height: 201px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    
+    .inBox {
+        width: 151px;
+        height: 165px;
+    }
+    .inBox p1 {
+        font-size: 24px;
+    }
+    .icon1 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon2 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon3 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .box a {
+        position: relative;
+        left: 65%;
+    }
+    .box a:hover {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    }
+    /* end main block*/
+    /*start moreInfo section*/
+    .section1 {
+        width: 337px;
+        height: 272px;
+    }
+    .section1 .text {
+        width: 248px;
+        height: 207px;
+    }
+    .moreInfo p1,
+    .moreInfo p2 {
+        font-size: 24px;
+    }
+    .moreInfo p2 {
+        color: #edbfff;
+    }
+    .moreInfo p3 {
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-family: "OpenSans";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .section2 {
+        width: 382px;
+        height: 220px;
+    }
+    .imgThree {
+        width: 49px;
+        height: 180px;
+        background: url(img/3img.png);
+    }
+    .describe {
+        width: 257px;
+        height: 175px;
+    }
+    .article {
+        width: 204px;
+    }
+    .article p1,
+    .article p2 {
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-size: 12px;
+        line-height: 24px;
+        font-family: "OpenSans";
+        font-weight: bolder;
+    }
+    .article p2 {
+        font-family: "OpenSans";
+        font-weight: 300;
+    }
+    .section2 a {
+        position: relative;
+        top: 5px;
+        left: 169px;
+    }
+    .section2 a:hover {
+        font-size: 20px;
+    }
+    /*end moreInfo section*/
+    /*start icons section*/
+    .boxCompany {
+        display: none;
+    }
+    .boxCompany1 {
+        height: 65px;
+        width: 725px;
+        background: url(img/companys%201.png);
+    }
+    /*end icons section*/
+    /*start beforeFooter section*/
+    .part2,
+    .part3 {
+        width: 205px;
+        height: 185px;
+        overflow: hidden;
+    }
+    .part1 {
+        display: none;
+    }
+    .part3 {
+        display: block;
+    }
+    /*end beforeFooter section*/
+    /*start footer section*/
+    .footer {
+        height: 166px;
+        width: 100%;
+        background: url(img/bg-copy.png);
+        background-size: 200% 200%;
+    }
+    .footer .menu {
+        width: 69%;
+        position: relative;
+        top: 78px;
+        left: 2px;
+    }
+    .footer .textMenu a {
+        font-size: 20px;
+    }
+    .footer .textMenu a:hover {
+        text-decoration: none;
+    }
+    .footer .copyright {
+        position: relative;
+        top: 90px;
+        right: 37px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 552px;
+    }
+    .page1 {
+        width: 480px;
+        height: 203px;
+    }
+    .page {
+        width: 480px;
+    }
+    .logo {
+        position: relative;
+        top: 54px;
+        left: 153px;
+    }
+    /*
+
+    menu block
+    */
+    .menu {
+        display: none;
+    }
+
+    .header .menu1 {
+        display: block;
+        position: relative;
+        z-index: 100;
+        right: 137px;
+        top: 133px;
+        width: 252px;
+        height: 43.5px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
+        border-radius: 5%;
+        background-color: #36293e00;
+        overflow: hidden;
+    }
+    
+    .header .menu1:hover {
+        display: block;
+        position: relative;
+        z-index: 100;
+        right: 137px;
+        top: 133px;
+        width: 252px;
+        height: 263px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5%;
+        background-color: #36293ee6;
+        overflow: hidden;
+    }
+    .header .textMenu,
+    .header .textMenu1 {
+        width: 252px;
+        height: 44.5px;
+    }
+    .header .menu1 a {
+        display: block;
+        margin-left: -2px;
+        width: 255px;
+        height: 43.5px;
+        font-family: 'LeagueGothic';
+        text-decoration: none;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 42.5px;
+        text-align: center;
+        border-bottom: 1px solid #523e5a;
+    }
+    .header .textMenu1 a:hover,
+    .header .textMenu a:hover {
+        background-color: #292130;
+        text-decoration: none;
+    }
+    .hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+    }
+    /*end of menu block*/
+    /* start of info block*/
+    .info {
+        height: 246px;
+    }
+    .infoText {
+        position: relative;
+        top: 83px;
+        width: 502px;
+        height: 231px;
+    }
+    .infoText p1 {
+        font-size: 36px;
+    }
+    .infoText p2 {
+        font-size: 24px;
+    }
+    .infoImg {
+        position: relative;
+        top: -15px;
+        right: 15px;
+        width: 310px;
+        height: 320px;
+        background: url(img/phone.png);
+        background-size: 100% 100%;
+    }
+    /* end of info block*/
+    /* start main block*/
+    .main {
+        height: 598px;
+    }
+    .main .page {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .box {
+        width: 429px;
+        height: 137px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inBox {
+        width: 365px;
+        height: 115px;
+        overflow: hidden;
+    }
+    .icon1 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon2 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon3 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .box a {
+        position: relative;
+        left: 30%;
+    }
+    /* end main block*/
+    /*start moreInfo section*/
+    .moreInfo {
+        height: 750px;
+    }
+    .moreInfo .page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        align-self: center;
+    }
+    .section1 {
+        width: 441px;
+        height: 274px;
+    }
+    .section1 .text {
+        position: relative;
+        top: 32px;
+        left: 65px;
+        width: 346px;
+        height: 202px;
+        overflow: hidden;
+    }
+    .section2 {
+        position: relative;
+        bottom: 0px;
+        left: 77px;
+        width: 370px;
+        height: 268px;
+    }
+    .imgThree {
+        width: 49px;
+        height: 180px;
+        background: url(img/3img.png);
+    }
+    .describe {
+        width: 434px;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .article {
+        width: 368px;
+        height: 179px;
+    }
+    .section2 a {
+        position: relative;
+        top: 5px;
+        left: 185px;
+    }
+    /*end moreInfo section*/
+    /*start icons section*/
+    .icons {
+        height: 233px;
+    }
+    .boxCompany1 {
+        height: 154px;
+        width: 345px;
+        background: url(img/companys3.png);
+    }
+    /*end icons section*/
+    /*start beforeFooter section*/
+    .beforeFooter {
+        height: 670px;
+    }
+    .beforeFooter .page {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .part2,
+    .part3 {
+        position: relative;
+        left: 10px;
+        width: 440px;
+        height: 135px;
+        overflow: hidden;
+    }
+    .part1 {
+        display: none;
+    }
+    .part3 {
+        display: block;
+    }
+    /*end beforeFooter section*/
+    /*start footer section*/
+    .footer {
+        height: 111px;
+        width: 100%;
+        background: url(img/bg-copy.png);
+    }
+    .menuFooter {
+        display: block;
+        position: relative;
+        top: 40px;
+        left: 25px;
+        width: 100%;
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuFootertextMenu a {
+        font-family: 'LeagueGothic';
+        text-decoration: none;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .menuFootertextMenu a:hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+    }
+    .footer .copyright {
+        position: relative;
+        top: 75px;
+        right: 210px;
+        width: 172px;
+        height: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .copyright p,
+    .footer .copyright p1 {
+        display: block;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "OpenSans";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 33.72px;
+    }
+    .footer .copyright p1 {
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 552px;
+    }
+    .page1 {
+        width: 320px;
+        height: 203px;
+    }
+    .page {
+        width: 320px;
+    }
+    .logo {
+        position: relative;
+        top: 54px;
+        left: 100px;
+    }
+    /*
+
+    menu block
+    */
+    .menu {
+        display: none;
+    }
+ .header .menu1 {
+    display: block;
+    position: relative;
+    z-index: 100;
+    right: 63px;
+    top: 133px;
+    width: 252px;
+    height: 36px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    background-color: #36293e00;
+    overflow: hidden; 
+}
+ .header .menu1:hover {
+    position: relative;
+    z-index: 100;
+    right: 63px;
+    top: 133px;
+    width: 252px;
+    height: 263px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    background-color: #36293ee6;
+}
+
+
+
+ .header .textMenu {
+    width: 252px;
+    height: 44.5px;
+    transition: 2s;
+}
+
+ .header .menu1 a {
+    display: block;
+    width: 207px;
+    height: 43.5px;
+    font-family: 'LeagueGothic';
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 42.5px;
+    text-align: center;
+    border-bottom: 1px solid #523e5a;
+}
+
+ .header .textMenu a:hover {
+    background-color: #292130;
+    text-decoration: none;
+}
+    .hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+    }
+    /*end of menu block*/
+    /* start of info block*/
+    .info {
+        height: 246px;
+    }
+    .infoText {
+        position: relative;
+        left: 73px;
+        top: 83px;
+        width: 205px;
+        height: 65px;
+    }
+    .infoText p1 {
+        font-size: 36px;
+    }
+    .infoText p2 {
+        font-size: 24px;
+    }
+    .infoImg {
+        display: none;
+    }
+    /* end of info block*/
+    /* start main block*/
+    .main {
+        height: 598px;
+    }
+    .main .page {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .box {
+        width: 270px;
+        height: 137px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inBox {
+        width: 194px;
+        height: 140px;
+        overflow: hidden;
+    }
+    .icon1 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon2 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .icon3 {
+        width: 30px;
+        height: 32px;
+        background: url(img/icon1.png);
+    }
+    .box a {
+        position: relative;
+        left: 34%;
+    }
+    /* end main block*/
+    /*start moreInfo section*/
+    .moreInfo {
+        height: 750px;
+    }
+    .moreInfo .page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        align-self: center;
+    }
+    .section1 {
+        width: 281px;
+        height: 292px;
+    }
+    .section1 .text {
+        position: relative;
+        top: 32px;
+        left: 65px;
+        width: 220px;
+        height: 235px;
+        overflow: hidden;
+    }
+    .section2 {
+        position: relative;
+        bottom: 0px;
+        left: 20px;
+        width: 370px;
+        height: 268px;
+    }
+    .imgThree {
+        width: 49px;
+        height: 180px;
+        background: url(img/3img.png);
+    }
+    .describe {
+        width: 434px;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .article {
+        width: 368px;
+        height: 179px;
+    }
+    .section2 a {
+        position: relative;
+        top: 5px;
+        left: 185px;
+    }
+    /*end moreInfo section*/
+    /*start icons section*/
+    .icons {
+        height: 422px;
+    }
+    .boxCompany1,
+    .boxCompany {
+        display: none;
+    }
+    .boxCompany2 {
+        height: 294px;
+        width: 237px;
+        background: url(img/comp5.png);
+    }
+    /*end icons section*/
+    /*start beforeFooter section*/
+    .beforeFooter {
+        display: none;
+    }
+    /*end beforeFooter section*/
+    /*start footer section*/
+    .footer {
+        height: 111px;
+        width: 100%;
+        background: url(img/bg-copy.png);
+    }
+    .menuFooter {
+        display: none;
+    }
+    .footer .copyright {
+        position: relative;
+        top: 40px;
+        right: -85px;
+        width: 141px;
+        height: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .copyright p,
+    .footer .copyright p1 {
+        display: block;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "OpenSans";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 33.72px;
+    }
+    .footer .copyright p1 {
+        font-weight: bold;
+    }
+}
